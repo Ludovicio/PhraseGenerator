@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1518371074 source:/home/ludo/workspace/PhraseGenerator/src/main.cpp
+	<iostream>
+	"allTokenators.h"
+	"common.h"
+
+1518371020 /home/ludo/workspace/PhraseGenerator/include/tokenators/Tokenator.h
+	"common.h"
+
+1518363306 /home/ludo/workspace/PhraseGenerator/include/common.h
+	<tuple>
+	<vector>
+	<string>
+	<memory>
+	<algorithm>
+	<stdlib.h>
+	<time.h>
+	<limits>
+
+1518359173 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/AlphaNumeric.cpp
+
+1518278716 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Aphabetic.cpp
+
+1518357482 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Consonantal.cpp
+	"tokenators/Consonantal.h"
+
+1518278620 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Numeric.cpp
+
+1518357477 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Vocalic.cpp
+	"tokenators/Vocalic.h"
+
+1518352533 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/UniformComposite.cpp
+	"tokenators/UniformComposite.h"
+
+1518352503 /home/ludo/workspace/PhraseGenerator/include/tokenators/UniformComposite.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518351843 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/WeightedComposite.cpp
+	"tokenators/WeightedComposite.h"
+
+1518351841 /home/ludo/workspace/PhraseGenerator/include/tokenators/WeightedComposite.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518353303 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Collection.cpp
+	"tokenators/Collection.h"
+
+1518352834 /home/ludo/workspace/PhraseGenerator/include/tokenators/Collection.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518371333 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/UniformRndComp.cpp
+	"tokenators/UniformRndComp.h"
+
+1518371301 /home/ludo/workspace/PhraseGenerator/include/tokenators/UniformRndComp.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518371270 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/WeightedRndComp.cpp
+	"tokenators/WeightedRndComp.h"
+
+1518371159 /home/ludo/workspace/PhraseGenerator/include/tokenators/WeightedRndComp.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518355474 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/UniformCollection.cpp
+	"tokenators/UniformCollection.h"
+
+1518377595 /home/ludo/workspace/PhraseGenerator/include/tokenators/UniformCollection.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518370638 /home/ludo/workspace/PhraseGenerator/include/allTokenators.h
+	"tokenators/Tokenator.h"
+	"tokenators/Single.h"
+	"tokenators/Vocalic.h"
+	"tokenators/Consonantal.h"
+	"tokenators/Numeric.h"
+	"tokenators/Alphabetic.h"
+	"tokenators/AlphaNumeric.h"
+	"tokenators/UniformCollection.h"
+	"tokenators/UniformRndComp.h"
+	"tokenators/WeightedRndComp.h"
+	"tokenators/Concatenator.h"
+	"tokenators/RndMultiplier.h"
+
+1518278812 /home/ludo/workspace/PhraseGenerator/include/tokenators/AlphaNumeric.h
+
+1518278716 /home/ludo/workspace/PhraseGenerator/include/tokenators/Aphabetic.h
+
+1518357492 /home/ludo/workspace/PhraseGenerator/include/tokenators/Consonantal.h
+	"common.h"
+	"tokenators/UniformCollection.h"
+
+1518278620 /home/ludo/workspace/PhraseGenerator/include/tokenators/Numeric.h
+
+1518357462 /home/ludo/workspace/PhraseGenerator/include/tokenators/Vocalic.h
+	"common.h"
+	"tokenators/UniformCollection.h"
+
+1518359215 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Alphabetic.cpp
+	"tokenators/Alphabetic.h"
+
+1518357178 /home/ludo/workspace/PhraseGenerator/include/tokenators/Alphabetic.h
+	"common.h"
+	"tokenators/UniformCollection.h"
+	"tokenators/Consonantal.h"
+	"tokenators/Vocalic.h"
+
+1518377737 /home/ludo/workspace/PhraseGenerator/include/tokenators/Concatenator.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518377692 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/Concatenator.cpp
+	"tokenators/Concatenator.h"
+
+1518377469 /home/ludo/workspace/PhraseGenerator/include/tokenators/RndMultiplier.h
+	"common.h"
+	"tokenators/Tokenator.h"
+
+1518377525 source:/home/ludo/workspace/PhraseGenerator/src/tokenators/RndMultiplier.cpp
+	"tokenators/RndMultiplier.h"
+
+1518374342 /home/ludo/workspace/PhraseGenerator/include/tokenators/Single.h
+	"common.h"
+
