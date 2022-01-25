@@ -4,7 +4,7 @@
  * @since 2018-02-10
  * @date 2018-02-10
  * @author Ludo
- * @brief UniformCollection tokenator.
+ * @brief Alphabetic UniformCollection tokenator.
  */
 
 #include "tokenators/Alphabetic.h"

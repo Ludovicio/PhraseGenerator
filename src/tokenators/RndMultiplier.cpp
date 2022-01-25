@@ -18,8 +18,9 @@ void RndMultiplier::_populate() {
 }
 
 std::string RndMultiplier::token() {
-    unsigned amount = (rand()% (maxG-minG))+minG;
+    unsigned amount = (rand()% ((maxG+1)-minG))+minG;
     std::string out = "";
+    if (amount == 0) {return out;}
     for(unsigned i = 0;i<amount;i++){
         out+=subTkntr->token();
     }
